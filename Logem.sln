@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logem", "src\Logem\Logem.csproj", "{32F14508-D073-4114-8F39-2261E2CD7A1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logem.Tests", "tests\Logem.Tests\Logem.Tests.csproj", "{D95ABAC9-2C31-4599-A6E5-21DD7D659F05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5C3EDAFF-DCEF-43F2-9C12-F56DC9953933}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2E7EEC54-2816-4128-8CCD-CFA6C21C9139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F14508-D073-4114-8F39-2261E2CD7A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F14508-D073-4114-8F39-2261E2CD7A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F14508-D073-4114-8F39-2261E2CD7A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F14508-D073-4114-8F39-2261E2CD7A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95ABAC9-2C31-4599-A6E5-21DD7D659F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95ABAC9-2C31-4599-A6E5-21DD7D659F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95ABAC9-2C31-4599-A6E5-21DD7D659F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95ABAC9-2C31-4599-A6E5-21DD7D659F05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32F14508-D073-4114-8F39-2261E2CD7A1B} = {5C3EDAFF-DCEF-43F2-9C12-F56DC9953933}
+		{D95ABAC9-2C31-4599-A6E5-21DD7D659F05} = {2E7EEC54-2816-4128-8CCD-CFA6C21C9139}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51CE20C7-DA0C-4308-AADB-4D8A561F5A47}
+	EndGlobalSection
+EndGlobal
