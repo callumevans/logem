@@ -5,3 +5,5 @@ src/Logem/obj
 
 tests/Logem.Tests/bin
 tests/Logem.Tests/obj
+
+*.csproj.user
